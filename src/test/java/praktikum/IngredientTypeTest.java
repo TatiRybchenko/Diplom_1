@@ -3,7 +3,6 @@ package praktikum;
 import junit.framework.TestCase;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 import static praktikum.IngredientType.FILLING;
 import static praktikum.IngredientType.SAUCE;
@@ -11,8 +10,6 @@ import static praktikum.IngredientType.SAUCE;
 @RunWith(MockitoJUnitRunner.class)
 public class IngredientTypeTest extends TestCase {
 
-    @Mock
-    Ingredient  ingredient;
     @Test
     public void valuesIngredientTypeSauce() {
 

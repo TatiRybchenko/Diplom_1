@@ -3,15 +3,12 @@ package praktikum;
 import junit.framework.TestCase;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 import static praktikum.IngredientType.FILLING;
 
 @RunWith(MockitoJUnitRunner.class)
 public class IngredientTest extends TestCase {
 
-    @Mock
-    Ingredient ingredient;
     @Test
     public void getPriceIngredient() {
         Ingredient ingredient = new Ingredient(FILLING, "dinosaur",200);

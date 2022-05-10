@@ -3,15 +3,13 @@ package praktikum;
 import junit.framework.TestCase;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 
 
 @RunWith(MockitoJUnitRunner.class)
 public class BunTest extends TestCase {
 
-    @Mock
-    Bun bun;
+
     @Test
     public void getBunName() {
         Bun bun = new Bun ("black bun", 100);
